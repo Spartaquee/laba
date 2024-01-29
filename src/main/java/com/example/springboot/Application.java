@@ -9,10 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class Application {
-	@GetMapping("/")
-	public String index(){
-		return "АУБПз-22у";
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
